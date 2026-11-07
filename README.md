@@ -12,6 +12,7 @@
   <img src="https://img.shields.io/badge/macOS-14%2B-111?style=flat-square" alt="macOS 14 or later">
   <img src="https://img.shields.io/badge/Apple%20Silicon%20%2B%20Intel-universal-111?style=flat-square" alt="Universal: Apple Silicon and Intel">
   <img src="https://img.shields.io/badge/Swift%206-SwiftUI-111?style=flat-square" alt="Swift 6 and SwiftUI">
+  <img src="https://img.shields.io/badge/license-MIT-111?style=flat-square" alt="MIT license">
 </p>
 
 <p align="center">
@@ -129,3 +130,7 @@ Debug builds take `-ZefraFakeFans YES`, `-ZefraFakeTemp 85`, `-ZefraFakeSensorFi
 ## Credits
 
 Sensor names come from [Stats](https://github.com/exelban/stats). Updates use [Sparkle](https://github.com/sparkle-project/Sparkle). See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+
+## License
+
+[MIT](LICENSE). Issues and pull requests are welcome, and reports from Macs other than an M4 Pro help most of all.
