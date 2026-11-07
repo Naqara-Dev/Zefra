@@ -19,7 +19,13 @@
 </p>
 
 > [!NOTE]
-> **Zefra is new.** It's built and tested on one MacBook Pro (M4 Pro). Sensors and diagnostics run on real hardware; fan control has been tested against pretend fans, and hasn't yet been confirmed end to end on a real one. There's no download yet, so for now you [build it yourself](#build).
+> **Zefra is new.** It's built and tested on one MacBook Pro (M4 Pro). Sensors and diagnostics run on real hardware; fan control has been tested against pretend fans, and hasn't yet been confirmed end to end on a real one.
+
+<p align="center">
+  <a href="https://github.com/Naqara-Dev/Zefra/releases/latest"><b>Download the latest release</b></a>
+</p>
+
+The download isn't notarized yet, so macOS blocks it the first time. Open **System Settings › Privacy & Security** and choose **Open Anyway**. After that it updates itself.
 
 ## At this temperature, do this
 
@@ -67,7 +73,7 @@ It runs entirely on your Mac. It can spot the heat, not the cause: a temperature
 | **Menu bar** | Choose what it shows and how it's laid out. The panel under it has fan controls, Max, and profiles. |
 | **Keys** | Global keys to show Zefra, send the fans to Max, or step through profiles. |
 | **Logs** | CSV with your choice of folder and schedule, alerts marked, and history to export. |
-| **Updates** | In place, checked against a signing key, once releases are published. |
+| **Updates** | In place, checked against a signing key. |
 
 <p align="center">
   <img src="docs/images/menubar.png" width="210" alt="The menu bar item: temperatures above, fan speed below">
@@ -109,7 +115,7 @@ Reading temperatures needs no special rights. Setting a fan speed needs root, so
 
 ## Build
 
-You need Xcode 16 or later, and a code signing certificate, because the helper only takes calls from an app signed like itself. An Apple Development certificate will do.
+To build it yourself, you need Xcode 16 or later, and a code signing certificate, because the helper only takes calls from an app signed like itself. An Apple Development certificate will do.
 
 ```sh
 ./scripts/test.sh       # the logic, no hardware touched

@@ -1,6 +1,6 @@
 cask "zefra" do
   version "0.1.0"
-  sha256 "851da23b3a387de87d7df5a94c057d487b0602d9410a33ca30438d913455e2bf"
+  sha256 "6b48706a7e4c6a04c99f2eb58c52f782a830b5f4e6f152dda5bdde203cfab76b"
 
   url "https://github.com/Naqara-Dev/Zefra/releases/download/v#{version}/Zefra-#{version}.dmg"
   name "Zefra"
